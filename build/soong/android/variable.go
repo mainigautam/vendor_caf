@@ -31,6 +31,9 @@ type Product_variables struct {
 	Uses_generic_camera_parameter_library struct {
 		Srcs []string
 	}
+	Has_legacy_camera_hal1 struct {
+		Cflags []string
+	}
 }
 
 type ProductVariables struct {
@@ -45,4 +48,5 @@ type ProductVariables struct {
 	Should_skip_waiting_for_qsee  *bool `json:",omitempty"`
 	Specific_camera_parameter_library  *string `json:",omitempty"`
 	Supports_legacy_hw_fde  *bool `json:",omitempty"`
+	Has_legacy_camera_hal1  *bool `json:",omitempty"`
 }
