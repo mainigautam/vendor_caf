@@ -19,6 +19,9 @@ type Product_variables struct {
 		Cppflags []string
 		Shared_libs []string
 	}
+	Needs_text_relocations struct {
+		Cppflags []string
+	}
 }
 
 type ProductVariables struct {
@@ -28,4 +31,5 @@ type ProductVariables struct {
         Additional_gralloc_10_usage_bits  *string `json:",omitempty"`
 	Target_process_sdk_version_override *string `json:",omitempty"`
 	Uses_qti_camera_device  *bool `json:",omitempty"`
+	Needs_text_relocations  *bool `json:",omitempty"`
 }
