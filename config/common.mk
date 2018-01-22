@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     Stk \
     Updater
 
+# Build Themes
+PRODUCT_PACKAGES += \
+    SystemDarkTheme
+
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
 
