@@ -49,6 +49,7 @@ PRODUCT_PACKAGES += \
 
 # Build Themes
 PRODUCT_PACKAGES += \
+    DuiDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme
 
