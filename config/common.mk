@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
 # Build Themes
 PRODUCT_PACKAGES += \
     DuiDarkTheme \
+    GBoardDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme
 
