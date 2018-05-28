@@ -47,12 +47,17 @@ PRODUCT_PACKAGES += \
     Stk \
     Updater
 
-# Build Themes
+# Build Themes Dark
 PRODUCT_PACKAGES += \
     DuiDarkTheme \
     GBoardDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme
+
+# Build Themes Black
+PRODUCT_PACKAGES += \
+    SettingsBlackTheme \
+    SystemBlackTheme
 
 # Overlays
 PRODUCT_PACKAGES += \
