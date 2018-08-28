@@ -6,6 +6,9 @@ type Product_variables struct {
 	Bootloader_message_offset struct {
 		Cflags []string
 	}
+	Supports_legacy_hw_fde struct {
+		Cflags []string
+	}
 	Target_shim_libs struct {
 		Cppflags []string
 	}
@@ -37,4 +40,5 @@ type ProductVariables struct {
 	Needs_text_relocations  *bool `json:",omitempty"`
 	Uses_generic_camera_parameter_library  *bool `json:",omitempty"`
 	Specific_camera_parameter_library  *string `json:",omitempty"`
+	Supports_legacy_hw_fde  *bool `json:",omitempty"`
 }
