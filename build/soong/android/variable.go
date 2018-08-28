@@ -6,6 +6,9 @@ type Product_variables struct {
 	Bootloader_message_offset struct {
 		Cflags []string
 	}
+	Should_skip_waiting_for_qsee struct {
+		Cflags []string
+	}
 	Supports_legacy_hw_fde struct {
 		Cflags []string
 	}
@@ -39,6 +42,7 @@ type ProductVariables struct {
 	Uses_qti_camera_device  *bool `json:",omitempty"`
 	Needs_text_relocations  *bool `json:",omitempty"`
 	Uses_generic_camera_parameter_library  *bool `json:",omitempty"`
+	Should_skip_waiting_for_qsee  *bool `json:",omitempty"`
 	Specific_camera_parameter_library  *string `json:",omitempty"`
 	Supports_legacy_hw_fde  *bool `json:",omitempty"`
 }

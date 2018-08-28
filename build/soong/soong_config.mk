@@ -5,6 +5,7 @@ $(call add_json_str,  Target_shim_libs,                      $(TARGET_LD_SHIM_LI
 $(call add_json_str,  Specific_camera_parameter_library,     $(TARGET_SPECIFIC_CAMERA_PARAMETER_LIBRARY))
 $(call add_json_bool, Target_uses_color_metadata,            $(filter true,$(TARGET_USES_COLOR_METADATA)))
 $(call add_json_str_omitempty, Additional_gralloc_10_usage_bits, $(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS))
+$(call add_json_bool, Should_skip_waiting_for_qsee, $(filter true,$(TARGET_KEYMASTER_SKIP_WAITING_FOR_QSEE)))
 $(call add_json_bool, Supports_legacy_hw_fde, $(filter true,$(TARGET_LEGACY_HW_DISK_ENCRYPTION)))
 $(call add_json_str_omitempty, Target_process_sdk_version_override,    $(TARGET_PROCESS_SDK_VERSION_OVERRIDE))
 $(call add_json_bool, Uses_qti_camera_device,                          $(filter true,$(TARGET_USES_QTI_CAMERA_DEVICE)))
