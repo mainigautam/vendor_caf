@@ -6,6 +6,19 @@ else
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
 endif
 
+# Include support for GApps backup
+PRODUCT_COPY_FILES += \
+    vendor/caf/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/caf/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/caf/prebuilt/bin/50-backuptool.sh:system/addon.d/50-backuptool.sh
+
+ifeq ($(AB_OTA_UPDATER),true)
+PRODUCT_COPY_FILES += \
+    vendor/caf/prebuilt/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \
+    vendor/caf/prebuilt/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
+    vendor/caf/prebuilt/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+endif
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery \
