@@ -45,6 +45,11 @@ PRODUCT_PACKAGES += \
     messaging \
     Updater
 
+# Themes
+PRODUCT_PACKAGES += \
+    SettingsDark \
+    SettingsIntelligenceDark
+
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
 
