@@ -49,7 +49,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsDark \
     SettingsIntelligenceDark \
-    SystemDark
+    SystemDark \
+    SystemUIDark
 
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
