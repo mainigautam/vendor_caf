@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/caf/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# Disable qmi EAP-SIM security
+DISABLE_EAP_PROXY := true
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery \
