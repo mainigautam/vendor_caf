@@ -3,4 +3,5 @@ PRODUCT_PACKAGES += \
     SettingsDark \
     SettingsIntelligenceDark \
     SystemDark \
-    SystemUIDark
+    SystemUIDark \
+    GBoardDark
