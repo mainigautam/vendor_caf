@@ -49,10 +49,15 @@ PRODUCT_PACKAGES += \
 
 # Build Themes Dark
 PRODUCT_PACKAGES += \
-    DuiDarkTheme \
-    GBoardDarkTheme \
-    SettingsDarkTheme \
-    SystemDarkTheme
+    GBoardDark \
+    GoogleIntelligenceSenseDark \
+    SettingsDark \
+    SettingsIntelligenceDark \
+    SystemDark \
+    SystemUiDark \
+    WellbeingDark
+
+
 
 # Build Themes Black
 PRODUCT_PACKAGES += \
