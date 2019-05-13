@@ -4,4 +4,6 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceDark \
     SystemDark \
     SystemUIDark \
-    GBoardDark
+    GBoardDark \
+    DocumentsUIDark \
+    UpdatesDark
