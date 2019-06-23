@@ -1,3 +1,5 @@
+DEVICE_PACKAGE_OVERLAYS += vendor/caf/overlay/common
+
 ifeq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
 else
