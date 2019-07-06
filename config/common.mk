@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/caf/prebuilt/common/etc/init/aosp-caf_updates.rc:system/etc/init/aosp-caf_updates.rc
 
+# APNS
+PRODUCT_COPY_FILES += \
+    vendor/caf/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery \
