@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/caf/prebuilt/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
 endif
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/caf/prebuilt/common/etc/permissions/privapp-aosp-caf-permission.xml:/system/etc/permissions/privapp-aosp-caf-permission.xml
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery \
