@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # CAF OTA update package
 
-TARGET_ROM_PACKAGE := $(PRODUCT_OUT)/CAF-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_DEVICE)-TEAMONE.zip
+TARGET_ROM_PACKAGE := $(PRODUCT_OUT)/CAF-$(CAF_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
