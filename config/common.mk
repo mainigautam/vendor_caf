@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
     SnapdragonMusic  \
     CMFileManager \
     messaging \
+    Updater
 
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
