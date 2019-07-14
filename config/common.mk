@@ -52,3 +52,4 @@ PRODUCT_PACKAGES += SoundRecorder
 PRODUCT_PACKAGES += WallpaperPicker
 
 include vendor/caf/config/themes.mk
+include vendor/caf/config/bootanimation.mk
