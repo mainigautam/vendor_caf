@@ -6,7 +6,7 @@ else
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
 endif
 
-CAF_TYPE ?= BETA
+CAF_TYPE ?= ALPHA
 CAF_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d-%H%M)-$(CAF_DEVICE)-TEAMONE
 
 # Include support for GApps backup
