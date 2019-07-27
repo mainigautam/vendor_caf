@@ -1,5 +1,5 @@
 for var in eng user userdebug; do
-add_lunch_combo aosp_$device-$var
+add_lunch_combo caf_$device-$var
 done
 
 # SDClang Environment Variables
