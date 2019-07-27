@@ -7,6 +7,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
 endif
 
 CAF_TYPE ?= ALPHA
+CAF_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
 CAF_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d-%H%M)-$(CAF_DEVICE)-TEAMONE
 
 # Include support for GApps backup
@@ -39,10 +40,12 @@ DISABLE_EAP_PROXY := true
 
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
-    SnapdragonGallery \
+    Aurora \
+    Gallery \
     SnapdragonMusic  \
     CMFileManager \
     messaging \
+    LiveWallpapersPicker \
     Updater
 
 # Build sound recorder
