@@ -1,3 +1,4 @@
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.teamone.base.version=$(CAF_VERSION) \
-    ro.teamone.releasetype=$(CAF_TYPE)
+    ro.oneos.base.version=$(ONE_VERSION) \
+    ro.oneos.releasetype=$(ONE_TYPE)	\
+    ro.oneos.version= 1.0
